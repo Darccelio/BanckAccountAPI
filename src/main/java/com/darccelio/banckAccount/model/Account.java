@@ -41,6 +41,6 @@ public class Account {
   @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
   @NotEmpty
   @ManyToMany
-  private Set<Cliente> cliente;
+  private Set<Client> client;
 
 }
